@@ -1,0 +1,30 @@
+:root {
+    --button-bg-color: #000000; /* Black background */
+    --button-text-color: #00FF00; /* Green text */
+    --button-border-radius: 8px;
+    --font-family: 'Poppins', sans-serif;
+  }
+  
+  .Button {
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-family: var(--font-family);
+    border-radius: var(--button-border-radius);
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    outline: none;
+  }
+  
+  .Button:hover {
+    background-color: var(--button-text-color); 
+    color: var(--button-bg-color);
+    transform: scale(1.05); 
+  }
+  
+  .Button:focus {
+    outline: none;
+  }
+  
