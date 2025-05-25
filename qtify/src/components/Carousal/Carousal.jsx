@@ -4,8 +4,7 @@ import React from "react";
 import "swiper/css";
 import styles from "./Carousal.module.css";
 import CarousalRightNav from "./CarousalRightNav/CarousalRightNav";
-import CarousalLeftNav from "./CarousalLeftNav/CarousalLeftNav";
-
+import CarousalLeftNav from "./ CarousalLeftNav/CarousalLeftNav";
 export default function Carousal({ data, Component, type }) {
   return (
     <div className={styles.carousalC}>
